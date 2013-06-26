@@ -1,0 +1,130 @@
+Tgcdpp
+v5
+r1
+cCheck dependencies
+cCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/libgcdpp.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051779A1C0000000000000110
+t1366792732
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005162985100000000003DDFA0
+t1365416017
+s4054944
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp
+c0000000051C977F500000000000005B7
+t1372157941
+s1463
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp
+c0000000051C977F500000000000005AC
+t1372157941
+s1452
+i"gcdpp_queue.h"
+i"gcdpp_task.h"
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.h
+c0000000051C977F50000000000000494
+t1372157941
+s1172
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp
+c0000000051C977F5000000000000009A
+t1372157941
+s154
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.h
+c0000000051C977F500000000000006F5
+t1372157941
+s1781
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/libgcdpp.a
+t2
+s0
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp.LinkFileList
+c0000000051C99E6B0000000000000184
+t1372167787
+s388
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o
+t2
+s0
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o
+t2
+s0
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o
+t2
+s0
+
+CBuild AST from /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp
+r0
+
+CBuild AST from /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp
+r0
+
+CBuild AST from /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4d6832ebd579b741^aed641ebd579b741^---0#1#0#--18"Check dependencies36"D0B40ECB-E90C-4404-AF52-10FAEC51149C-
+
+CCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393860936.658556
+e393860937.512316
+r1
+xCompileC
+xbuild/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp98c1a848d779b741^e1268349d779b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp0000000000000000^3137"CompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o Sources/gcdpp_impl.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-generated-files.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-own-target-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-all-target-headers.hmap -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-project-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources/i386 -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources -F/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.d --serialize-diagnostics /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.dia -c /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_impl.cpp -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_impl.o36"323F483F-04FF-4F18-A467-49D06B9F84B7-
+
+CCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393860935.223924
+e393860936.657213
+r1
+xCompileC
+xbuild/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp9b723947d779b741^3e3fa848d779b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp0000000000000000^3143"CompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o Sources/gcdpp_queue.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-generated-files.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-own-target-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-all-target-headers.hmap -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-project-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources/i386 -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources -F/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.d --serialize-diagnostics /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.dia -c /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_queue.cpp -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_queue.o36"BB42BD3B-E431-4551-8592-DDDD307772CD-
+
+CCompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393860935.227552
+e393860935.779885
+r1
+xCompileC
+xbuild/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp425b3a47d779b741^ada6c747d779b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp0000000000000000^3137"CompileC build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o Sources/gcdpp_task.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-generated-files.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-own-target-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-all-target-headers.hmap -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/gcdpp-project-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources/i386 -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/DerivedSources -F/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.d --serialize-diagnostics /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.dia -c /Users/sergey.sergeev/Documents/Hobby/gcdpp/Sources/gcdpp_task.cpp -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o36"4327C400-A7F5-421E-95A8-2BA640C83847-
+
+CLibtool /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/libgcdpp.a normal i386
+s393860939.777142
+e393860939.848326
+r1
+xLibtool
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/libgcdpp.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool build/Debug-iphonesimulator/libgcdpp.a normal i386a515c74bd779b741^0a2bd94bd779b741^-246"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp_task.o has no symbols-0#0#0#--925"Libtool build/Debug-iphonesimulator/libgcdpp.a normal i386    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator -filelist /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/gcdpp.build/Debug-iphonesimulator/gcdpp.build/Objects-normal/i386/gcdpp.LinkFileList -framework Foundation -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/build/Debug-iphonesimulator/libgcdpp.a36"D10C4180-8163-4AF4-BEDA-38C5DF3BA30D-
+

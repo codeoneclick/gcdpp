@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21E09EA317783CA000F199AD /* gcdpp_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E09E9D17783CA000F199AD /* gcdpp_queue.cpp */; };
-		21E09EA417783CA000F199AD /* gcdpp_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E09E9F17783CA000F199AD /* gcdpp_task.cpp */; };
-		21E09EA517783CA000F199AD /* gcdpp_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21E09EA117783CA000F199AD /* gcdpp_impl.cpp */; };
+		A436487E177AFED4006CB6DE /* gcdppTask_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A436487C177AFED4006CB6DE /* gcdppTask_t.cpp */; };
+		A4364881177AFEEF006CB6DE /* gcdppTask_i.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A436487F177AFEEF006CB6DE /* gcdppTask_i.cpp */; };
+		A4364884177AFF43006CB6DE /* gcdppQueue_i.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4364882177AFF43006CB6DE /* gcdppQueue_i.cpp */; };
+		A4364887177AFF60006CB6DE /* gcdppQueue_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4364885177AFF60006CB6DE /* gcdppQueue_t.cpp */; };
+		A436488A177AFF91006CB6DE /* gcdppMainQueue_t.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4364888177AFF91006CB6DE /* gcdppMainQueue_t.cpp */; };
+		A436488D177AFFC8006CB6DE /* gcdppImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A436488B177AFFC8006CB6DE /* gcdppImpl.cpp */; };
 		A494B8F6176B1E3D004C9F96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A494B8F5176B1E3D004C9F96 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,14 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		21515CAE177844C8009D1CF9 /* gcdpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gcdpp.h; path = Headers/gcdpp.h; sourceTree = "<group>"; };
-		21E09E9C17783CA000F199AD /* gcdpp_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdpp_common.h; path = Sources/gcdpp_common.h; sourceTree = SOURCE_ROOT; };
-		21E09E9D17783CA000F199AD /* gcdpp_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdpp_queue.cpp; path = Sources/gcdpp_queue.cpp; sourceTree = SOURCE_ROOT; };
-		21E09E9E17783CA000F199AD /* gcdpp_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdpp_queue.h; path = Sources/gcdpp_queue.h; sourceTree = SOURCE_ROOT; };
-		21E09E9F17783CA000F199AD /* gcdpp_task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdpp_task.cpp; path = Sources/gcdpp_task.cpp; sourceTree = SOURCE_ROOT; };
-		21E09EA017783CA000F199AD /* gcdpp_task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdpp_task.h; path = Sources/gcdpp_task.h; sourceTree = SOURCE_ROOT; };
-		21E09EA117783CA000F199AD /* gcdpp_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdpp_impl.cpp; path = Sources/gcdpp_impl.cpp; sourceTree = SOURCE_ROOT; };
-		21E09EA217783CA000F199AD /* gcdpp_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdpp_impl.h; path = Sources/gcdpp_impl.h; sourceTree = SOURCE_ROOT; };
+		A436487C177AFED4006CB6DE /* gcdppTask_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppTask_t.cpp; path = Sources/gcdppTask_t.cpp; sourceTree = SOURCE_ROOT; };
+		A436487F177AFEEF006CB6DE /* gcdppTask_i.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppTask_i.cpp; path = Sources/gcdppTask_i.cpp; sourceTree = SOURCE_ROOT; };
+		A4364882177AFF43006CB6DE /* gcdppQueue_i.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppQueue_i.cpp; path = Sources/gcdppQueue_i.cpp; sourceTree = SOURCE_ROOT; };
+		A4364885177AFF60006CB6DE /* gcdppQueue_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppQueue_t.cpp; path = Sources/gcdppQueue_t.cpp; sourceTree = SOURCE_ROOT; };
+		A4364888177AFF91006CB6DE /* gcdppMainQueue_t.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppMainQueue_t.cpp; path = Sources/gcdppMainQueue_t.cpp; sourceTree = SOURCE_ROOT; };
+		A436488B177AFFC8006CB6DE /* gcdppImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gcdppImpl.cpp; path = Sources/gcdppImpl.cpp; sourceTree = SOURCE_ROOT; };
+		A4364890177B0ACA006CB6DE /* gcdppCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppCommon.h; path = Headers/gcdppCommon.h; sourceTree = "<group>"; };
+		A4364891177B0ACA006CB6DE /* gcdppImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppImpl.h; path = Headers/gcdppImpl.h; sourceTree = "<group>"; };
+		A4364892177B0ACA006CB6DE /* gcdppLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppLib.h; path = Headers/gcdppLib.h; sourceTree = "<group>"; };
+		A4364893177B0ACA006CB6DE /* gcdppMainQueue_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppMainQueue_t.h; path = Headers/gcdppMainQueue_t.h; sourceTree = "<group>"; };
+		A4364894177B0ACA006CB6DE /* gcdppQueue_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppQueue_i.h; path = Headers/gcdppQueue_i.h; sourceTree = "<group>"; };
+		A4364895177B0ACA006CB6DE /* gcdppQueue_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppQueue_t.h; path = Headers/gcdppQueue_t.h; sourceTree = "<group>"; };
+		A4364896177B0ACA006CB6DE /* gcdppTask_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppTask_i.h; path = Headers/gcdppTask_i.h; sourceTree = "<group>"; };
+		A4364897177B0ACA006CB6DE /* gcdppTask_t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gcdppTask_t.h; path = Headers/gcdppTask_t.h; sourceTree = "<group>"; };
 		A494B8F2176B1E3D004C9F96 /* libgcdpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgcdpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A494B8F5176B1E3D004C9F96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -53,7 +62,14 @@
 		21E09E9B17783C5200F199AD /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				21515CAE177844C8009D1CF9 /* gcdpp.h */,
+				A4364890177B0ACA006CB6DE /* gcdppCommon.h */,
+				A4364891177B0ACA006CB6DE /* gcdppImpl.h */,
+				A4364892177B0ACA006CB6DE /* gcdppLib.h */,
+				A4364893177B0ACA006CB6DE /* gcdppMainQueue_t.h */,
+				A4364894177B0ACA006CB6DE /* gcdppQueue_i.h */,
+				A4364895177B0ACA006CB6DE /* gcdppQueue_t.h */,
+				A4364896177B0ACA006CB6DE /* gcdppTask_i.h */,
+				A4364897177B0ACA006CB6DE /* gcdppTask_t.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -87,13 +103,12 @@
 		A494B8F7176B1E3D004C9F96 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				21E09E9C17783CA000F199AD /* gcdpp_common.h */,
-				21E09E9D17783CA000F199AD /* gcdpp_queue.cpp */,
-				21E09E9E17783CA000F199AD /* gcdpp_queue.h */,
-				21E09E9F17783CA000F199AD /* gcdpp_task.cpp */,
-				21E09EA017783CA000F199AD /* gcdpp_task.h */,
-				21E09EA117783CA000F199AD /* gcdpp_impl.cpp */,
-				21E09EA217783CA000F199AD /* gcdpp_impl.h */,
+				A436487F177AFEEF006CB6DE /* gcdppTask_i.cpp */,
+				A436487C177AFED4006CB6DE /* gcdppTask_t.cpp */,
+				A4364882177AFF43006CB6DE /* gcdppQueue_i.cpp */,
+				A4364885177AFF60006CB6DE /* gcdppQueue_t.cpp */,
+				A4364888177AFF91006CB6DE /* gcdppMainQueue_t.cpp */,
+				A436488B177AFFC8006CB6DE /* gcdppImpl.cpp */,
 			);
 			name = Sources;
 			path = indieThreadConcurrency;
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21E09EA317783CA000F199AD /* gcdpp_queue.cpp in Sources */,
-				21E09EA417783CA000F199AD /* gcdpp_task.cpp in Sources */,
-				21E09EA517783CA000F199AD /* gcdpp_impl.cpp in Sources */,
+				A436487E177AFED4006CB6DE /* gcdppTask_t.cpp in Sources */,
+				A4364881177AFEEF006CB6DE /* gcdppTask_i.cpp in Sources */,
+				A4364884177AFF43006CB6DE /* gcdppQueue_i.cpp in Sources */,
+				A4364887177AFF60006CB6DE /* gcdppQueue_t.cpp in Sources */,
+				A436488A177AFF91006CB6DE /* gcdppMainQueue_t.cpp in Sources */,
+				A436488D177AFFC8006CB6DE /* gcdppImpl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

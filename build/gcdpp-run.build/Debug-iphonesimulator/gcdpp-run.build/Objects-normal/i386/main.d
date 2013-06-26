@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Unit-Tests/iOS/main.mm \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-internal.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-port.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-string.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-filepath.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-type-util.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest-message.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest-param-test.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-param-util.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-linked_ptr.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest-printers.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/internal/gtest-param-util-generated.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest_prod.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest-test-part.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest-typed-test.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest_pred_impl.h \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Unit-Tests/iOS/MainLib.h

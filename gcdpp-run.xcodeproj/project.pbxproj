@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		21515CA217784212009D1CF9 /* libgcdpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21515CA117784212009D1CF9 /* libgcdpp.a */; };
 		21515CA517784260009D1CF9 /* liblibGoogleUnitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21515C92177841B3009D1CF9 /* liblibGoogleUnitTest.a */; };
-		21515CAA17784332009D1CF9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21515CA717784332009D1CF9 /* AppDelegate.mm */; };
+		21515CAA17784332009D1CF9 /* MainLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21515CA717784332009D1CF9 /* MainLib.mm */; };
 		21515CAB17784332009D1CF9 /* gcdpp-run.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21515CA817784332009D1CF9 /* gcdpp-run.plist */; };
 		21515CAC17784332009D1CF9 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21515CA917784332009D1CF9 /* main.mm */; };
 		21E09EB317783D4800F199AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E09EB217783D4800F199AD /* UIKit.framework */; };
 		21E09EB517783D4800F199AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E09EB417783D4800F199AD /* Foundation.framework */; };
 		21E09EB717783D4800F199AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E09EB617783D4800F199AD /* CoreGraphics.framework */; };
+		A43648A3177B2239006CB6DE /* UNIT_TESTS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21515CAD17784345009D1CF9 /* UNIT_TESTS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,12 +79,12 @@
 
 /* Begin PBXFileReference section */
 		21515C83177841B2009D1CF9 /* libGoogleUnitTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libGoogleUnitTest.xcodeproj; path = "Libraries/gtest-1.6.0/xcode/libGoogleUnitTest.xcodeproj"; sourceTree = "<group>"; };
-		21515CA117784212009D1CF9 /* libgcdpp.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libgcdpp.a; path = "build/Release-iphoneos/libgcdpp.a"; sourceTree = "<group>"; };
-		21515CA617784332009D1CF9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Unit-Tests/iOS/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		21515CA717784332009D1CF9 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "Unit-Tests/iOS/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
+		21515CA117784212009D1CF9 /* libgcdpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgcdpp.a; path = "build/Release-iphoneos/libgcdpp.a"; sourceTree = "<group>"; };
+		21515CA617784332009D1CF9 /* MainLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainLib.h; path = "Unit-Tests/iOS/MainLib.h"; sourceTree = SOURCE_ROOT; };
+		21515CA717784332009D1CF9 /* MainLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MainLib.mm; path = "Unit-Tests/iOS/MainLib.mm"; sourceTree = SOURCE_ROOT; };
 		21515CA817784332009D1CF9 /* gcdpp-run.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "gcdpp-run.plist"; path = "Unit-Tests/iOS/gcdpp-run.plist"; sourceTree = SOURCE_ROOT; };
 		21515CA917784332009D1CF9 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = "Unit-Tests/iOS/main.mm"; sourceTree = SOURCE_ROOT; };
-		21515CAD17784345009D1CF9 /* UNIT_TESTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UNIT_TESTS.h; path = "Unit-Tests/UNIT_TESTS.h"; sourceTree = "<group>"; };
+		21515CAD17784345009D1CF9 /* UNIT_TESTS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UNIT_TESTS.cpp; path = "Unit-Tests/UNIT_TESTS.cpp"; sourceTree = "<group>"; };
 		21E09EAF17783D4800F199AD /* gcdpp-run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gcdpp-run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E09EB217783D4800F199AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21E09EB417783D4800F199AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,7 +124,7 @@
 		21515C9D177841C8009D1CF9 /* Unit-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				21515CAD17784345009D1CF9 /* UNIT_TESTS.h */,
+				21515CAD17784345009D1CF9 /* UNIT_TESTS.cpp */,
 			);
 			name = "Unit-Tests";
 			sourceTree = "<group>";
@@ -162,8 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				21515CA917784332009D1CF9 /* main.mm */,
-				21515CA617784332009D1CF9 /* AppDelegate.h */,
-				21515CA717784332009D1CF9 /* AppDelegate.mm */,
+				21515CA617784332009D1CF9 /* MainLib.h */,
+				21515CA717784332009D1CF9 /* MainLib.mm */,
 				21515CA817784332009D1CF9 /* gcdpp-run.plist */,
 			);
 			name = Sources;
@@ -299,7 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21515CAA17784332009D1CF9 /* AppDelegate.mm in Sources */,
+				A43648A3177B2239006CB6DE /* UNIT_TESTS.cpp in Sources */,
+				21515CAA17784332009D1CF9 /* MainLib.mm in Sources */,
 				21515CAC17784332009D1CF9 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

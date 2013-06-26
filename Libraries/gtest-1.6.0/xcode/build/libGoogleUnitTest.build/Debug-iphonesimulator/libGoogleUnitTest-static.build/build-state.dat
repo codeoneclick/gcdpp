@@ -2,12 +2,12 @@ TlibGoogleUnitTest-static
 v5
 r1
 cCheck dependencies
-cCompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386
+cCompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c0000000051C223F60000000000000110
-t1371677686
+c0000000051779A1C0000000000000110
+t1366792732
 s272
 
 N/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/include/gtest/gtest.h
@@ -126,9 +126,9 @@ t1369375392
 s185660
 
 N/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc
-c00000000519F02A0000000000000084E
-t1369375392
-s2126
+c00000000000000000000000000000000
+t2
+s0
 i"gtest/gtest.h"
 i"src/gtest.cc"
 i"src/gtest-filepath.cc"
@@ -155,12 +155,160 @@ c0000000051C80AEE00000000000000B9
 t1372064494
 s185
 
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-message.h
+c0000000051C977F500000000000020CB
+t1372157941
+s8395
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-param-test.h
+c0000000051C977F50000000000012859
+t1372157941
+s75865
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-printers.h
+c0000000051C977F500000000000075D0
+t1372157941
+s30160
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-spi.h
+c0000000051C977F500000000000026DF
+t1372157941
+s9951
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-test-part.h
+c0000000051C977F50000000000001945
+t1372157941
+s6469
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest-typed-test.h
+c0000000051C977F50000000000002802
+t1372157941
+s10242
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest.h
+c0000000051C977F50000000000013FB8
+t1372157941
+s81848
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest_pred_impl.h
+c0000000051C977F50000000000003B24
+t1372157941
+s15140
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/gtest_prod.h
+c0000000051C977F50000000000000914
+t1372157941
+s2324
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-filepath.h
+c0000000051C977F500000000000025E1
+t1372157941
+s9697
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-internal.h
+c0000000051C977F5000000000000B8DD
+t1372157941
+s47325
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-linked_ptr.h
+c0000000051C977F50000000000001F7F
+t1372157941
+s8063
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-param-util-generated.h
+c0000000051C977F5000000000002945C
+t1372157941
+s169052
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-param-util.h
+c0000000051C977F50000000000005EAA
+t1372157941
+s24234
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-port.h
+c0000000051C977F5000000000000F1EE
+t1372157941
+s61934
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-string.h
+c0000000051C977F5000000000000351B
+t1372157941
+s13595
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../include/gtest/internal/gtest-type-util.h
+c0000000051C977F5000000000002D53C
+t1372157941
+s185660
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc
+c0000000051C977F5000000000000084E
+t1372157941
+s2126
+i"gtest/gtest.h"
+i"src/gtest.cc"
+i"src/gtest-filepath.cc"
+i"src/gtest-port.cc"
+i"src/gtest-printers.cc"
+i"src/gtest-test-part.cc"
+i"src/gtest-typed-test.cc"
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-filepath.cc
+c0000000051C977F500000000000037AF
+t1372157941
+s14255
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-internal-inl.h
+c0000000051C977F50000000000009B88
+t1372157941
+s39816
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-port.cc
+c0000000051C977F500000000000062E8
+t1372157941
+s25320
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-printers.cc
+c0000000051C977F50000000000002F0A
+t1372157941
+s12042
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-test-part.cc
+c0000000051C977F50000000000001065
+t1372157941
+s4197
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-typed-test.cc
+c0000000051C977F50000000000000EA3
+t1372157941
+s3747
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest.cc
+c0000000051C977F5000000000002BE46
+t1372157941
+s179782
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a
+t1372168139
+s1655688
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o
+t1372168139
+s1580652
+
+N/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/libGoogleUnitTest.LinkFileList
+c0000000051C99E6B00000000000000BB
+t1372167787
+s187
+
 CBuild AST from /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc
+r0
+
+CBuild AST from /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd994bb20c078b741^020fbc20c078b741^---0#1#0#--18"Check dependencies36"910FBA02-5E08-4EB5-8850-BF41BA866B88-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies26c70146237bb741^e6220246237bb741^---0#1#0#--18"Check dependencies36"198DE67A-F762-44EF-A011-16B6C78A0EEC-
 
 CCompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393757294.512287
@@ -175,6 +323,19 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.ccc553836e4278b741^6b7f8f714278b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc0000000000000000^3703"CompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o ../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-generated-files.hmap -I/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-own-target-headers.hmap -I/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-all-target-headers.hmap -iquote /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-project-headers.hmap -I/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/include -I.. -I../include -I/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/DerivedSources/i386 -I/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator -DDEBUG=1 -MMD -MT dependencies -MF /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.d --serialize-diagnostics /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.dia -c /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc -o /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o36"7BAA1FD1-CA9C-4567-AB20-E61DF7BEF17C-
 
+CCompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393860937.513734
+e393860939.775678
+r1
+xCompileC
+xbuild/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc09a98349d779b741^6491c64bd779b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc0000000000000000^3729"CompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o ../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=6.1 -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-generated-files.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-own-target-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-all-target-headers.hmap -iquote /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/libGoogleUnitTest-project-headers.hmap -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/include -I.. -I../include -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/DerivedSources/i386 -I/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/DerivedSources -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator -DDEBUG=1 -MMD -MT dependencies -MF /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.d --serialize-diagnostics /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.dia -c /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o36"0FA3718E-4904-434C-B1EF-AD8F878BE6D1-
+
 CLibtool /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386
 s393757297.567332
 e393757297.580873
@@ -184,4 +345,14 @@ x/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Deb
 xnormal
 xi386
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Libtool build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i3861f4d91714278b741^e5b394714278b741^---0#0#0#--1074"Libtool build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386    cd /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator -filelist /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/libGoogleUnitTest.LinkFileList -o /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a36"3ADD1866-33AA-41ED-A16A-5CB46D365025-
+
+CLibtool /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386
+s393860939.849753
+e393860939.913950
+r1
+xLibtool
+x/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Libtool build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386dfa8d94bd779b741^50fbe94bd779b741^---0#0#0#--1082"Libtool build/Debug-iphonesimulator/liblibGoogleUnitTest.a normal i386    cd /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator -filelist /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/libGoogleUnitTest.LinkFileList -o /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/build/Debug-iphonesimulator/liblibGoogleUnitTest.a36"CDFC14F8-0DB6-4FA3-A40E-97B0E5463A64-
 

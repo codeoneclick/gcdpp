@@ -8,13 +8,13 @@
 
 #include <UIKit/UIKit.h>
 #include "gtest/gtest.h"
-#include "AppDelegate.h"
+#include "MainLib.h"
 
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
+    @autoreleasepool
+    {
         ::testing::InitGoogleTest(&argc, argv);
-        std::cout<<RUN_ALL_TESTS()<<std::endl;
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MainLib class]));
     }
 }

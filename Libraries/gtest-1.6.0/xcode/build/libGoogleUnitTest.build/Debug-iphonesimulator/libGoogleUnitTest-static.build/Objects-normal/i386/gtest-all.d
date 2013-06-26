@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc \
+  /Users/sergey.sergeev/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc \
   ../include/gtest/gtest.h ../include/gtest/internal/gtest-internal.h \
   ../include/gtest/internal/gtest-port.h \
   ../include/gtest/internal/gtest-string.h \
