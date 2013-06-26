@@ -64,6 +64,7 @@ namespace gcdpp
         
         void Execute(void)
         {
+            assert(m_function != nullptr);
             Forward(m_function, m_args);
         };
     };

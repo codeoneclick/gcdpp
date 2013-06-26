@@ -16,9 +16,7 @@ TEST(gcdppLib, Dispatch_01)
 {
     std::function<void(int, float, std::string)> function = [](int a, float b, const std::string& c)
     {
-        EXPECT_TRUE(a == 1);
-        EXPECT_TRUE(b == 2.0f);
-        EXPECT_TRUE(c == "Hello World");
+        EXPECT_TRUE(a == 1 && b == 2.0f && c == "Hello World");
     };
     gcdpp::impl::DispatchAsync<int, float, std::string>(gcdpp::queue::GetGlobalQueue(gcdpp::queue::GCDPP_DISPATCH_QUEUE_PRIORITY_LOW), function, 1, 2.0f, "Hello World");
 }
@@ -29,6 +27,11 @@ class Clazz
 public:
     
     std::string m_value;
+    
+    void Foo(int a, float b, const std::string& c)
+    {
+        std::cout<<a<<b<<c<<std::endl;
+    };
 };
 
 TEST(gcdppLib, Dispatch_02)
@@ -56,7 +59,6 @@ TEST(gcdppLib, Dispatch_04)
 {
     std::function<void(std::string)> function = [](const std::string& a)
     {
-        EXPECT_TRUE(a == "Hello");
         std::function<void(std::string)> function = [](const std::string& a)
         {
             EXPECT_TRUE(a == "Hello World");
@@ -66,6 +68,15 @@ TEST(gcdppLib, Dispatch_04)
         gcdpp::impl::DispatchAsync<std::string>(gcdpp::queue::GetMainQueue(), function, b);
     };
     gcdpp::impl::DispatchAsync<std::string>(gcdpp::queue::GetGlobalQueue(gcdpp::queue::GCDPP_DISPATCH_QUEUE_PRIORITY_LOW), function, "Hello");
+}
+
+typedef std::function<void(void)> task_t;
+
+TEST(gcdppLib, Dispatch_05)
+{
+    std::shared_ptr<Clazz> clazz = std::make_shared<Clazz>();
+    task_t task = std::bind(&Clazz::Foo, clazz, 1, 2.0f, "Hello World");
+    gcdpp::impl::DispatchAsync(gcdpp::queue::GetGlobalQueue(gcdpp::queue::GCDPP_DISPATCH_QUEUE_PRIORITY_LOW), task);
 }
 
 #endif

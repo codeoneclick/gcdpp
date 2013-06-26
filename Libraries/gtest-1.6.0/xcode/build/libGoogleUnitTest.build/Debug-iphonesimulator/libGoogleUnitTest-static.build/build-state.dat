@@ -308,7 +308,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies26c70146237bb741^e6220246237bb741^---0#1#0#--18"Check dependencies36"198DE67A-F762-44EF-A011-16B6C78A0EEC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesee4055ff327bb741^2fa255ff327bb741^---0#1#0#--18"Check dependencies36"65A2FAAD-BFC8-4BFD-BDBA-4813B54854DB-
 
 CCompileC build/libGoogleUnitTest.build/Debug-iphonesimulator/libGoogleUnitTest-static.build/Objects-normal/i386/gtest-all.o /Users/codeoneclick/Documents/Hobby/gcdpp/Libraries/gtest-1.6.0/xcode/../src/gtest-all.cc normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393757294.512287
